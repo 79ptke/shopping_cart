@@ -1,0 +1,218 @@
+.cartItemListsArea {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.cartItemListWrap {
+    width: calc(100% - 320px);
+}
+
+.tableWrap,
+.cartItemLists {
+    width: 100%;
+}
+
+.cartItemList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.headerList {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background: #ddd;
+}
+
+.cartItemList .inputTd {
+    width: 15px;
+}
+
+.cartItemList .imgTd {
+    width: 60px;
+}
+
+.cartItemList .nameTd {
+    width: calc(100% - 275px);
+}
+
+.cartItemList .opsTd {
+    width: 76px;
+}
+
+.cartItemList .priceTd {
+    width: 100px;
+    text-align: center;
+}
+
+.cartItemList .delTd {
+    width: 24px;
+}
+
+
+.chkDelBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+}
+
+.cartItemList .itemImg {
+    width: 60px;
+    aspect-ratio: 1/1;
+}
+
+.cartItemList .opsArea {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cartItemList .ops,
+.cartItemList .xBtn {
+    width: 24px;
+    aspect-ratio: 1/1;
+    border: 1px solid #000;
+    border-radius: 50px;
+    background: #fff;
+}
+
+
+.sumArea {
+    width: 300px;
+}
+
+.sumArea .tableArea {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.sumArea table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.sumArea table th,
+.sumArea table td {
+    width: 50%;
+    padding: 20px;
+}
+
+.sumArea table th {
+    text-align: left;
+}
+
+.sumArea table td {
+    text-align: right;
+}
+
+.sumArea table .totalSum {
+    background: #000;
+    color: #fff;
+}
+
+.sumArea table .totalSum td {
+    font-weight: bold;
+    color: rgb(255, 197, 109);
+}
+
+.sumArea .payBtn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    border: 0;
+    background: rgb(255, 174, 52);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*삭제 모달 영역*/
+.modalArea {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.6);
+}
+
+.delModal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    border-radius: 12px;
+    background: #fff;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.delModal p {
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.delModal .btnArea {
+    border-top: 1px solid #000;
+}
+
+.delModal .delBtn,
+.delModal .cancelBtn {
+    width: 50%;
+    padding: 20px;
+    border: 0;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.delModal .delBtn {
+    background: #000;
+    color: #fff;
+}
+
+
+
+
+
+@media screen and (max-width: 1081px) {
+    .cartItemListsArea {
+        flex-direction: column;
+    }
+
+    .cartItemListWrap {
+        width: 100%;
+    }
+
+    .sumArea {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 581px) {
+    .tableWrap {
+        overflow: auto;
+        overflow-y: hidden;
+    }
+
+    .cartItemList {
+        min-width: 376px;
+        font-size: 14px;
+    }
+
+    .cartItemList .imgTd,
+    .cartItemList .itemImg {
+        width: 40px;
+    }
+}
