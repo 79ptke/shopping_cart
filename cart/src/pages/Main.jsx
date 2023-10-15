@@ -32,7 +32,7 @@ function Main () {
     return (
       <div className="main">
         <div className="wrapper">
-          <h1 className="mainTitle"> 인기상품 리스트</h1> 
+          <h1 className="mainTitle"> 인기상품 </h1> 
           <ul className="productItems">
             {productData && productData.map ((data) => {
               return (
