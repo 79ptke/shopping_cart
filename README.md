@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# 🐶 Shopping Cart Project 🛒
+- 강아지 간식이나 장난감을 살 수 있는 쇼핑몰입니다. 원하는 물품을 장바구니에 담아보세요!
+- [🌐 멍멍마켓 웹사이트로 바로가기](https://clever-meerkat-59ecf3.netlify.app/)
+<br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![멍멍마켓 화면 이미지](./readme_img/bg.png)
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+### 📅 프로젝트 기간 
+- 2023.09.28 ~ 2023.10.11
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ⭐︎ Front-end 기술선정
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### React + Typescript
+- 자바스크립트 라이브러리인 리액트를 중심으로 개발
 
-### `npm test`
+#### Redux
+- 페이지에서 관리해야하는 상태가 많아지고 구조가 복잡해지면서 상태관리 시  
+props 사용이 부담스러웠고, state 갱신에 관한 에러를 방지하기 위해 Redux를 사용
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+### 💻️ 프론트엔드 기술 스택
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,html,css,javascript,github" />
+  </a>
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🔧 주요 기능
+- 장바구니 담기 및 카트에 수량 표시
+- 물품 추가,감소 버튼
+- 물품 가격 계산
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
