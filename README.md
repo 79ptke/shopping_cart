@@ -14,7 +14,7 @@
 
 ### ⭐︎ Front-end 기술선정
 
-#### React + Typescript
+#### React
 - 자바스크립트 라이브러리인 리액트를 중심으로 개발
 
 #### Redux
